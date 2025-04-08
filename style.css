@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.header, .header-links { 
+    display: flex;
+}
+
+.header, .first-row {
+    background-color: #51374a;
+    color: white;
+}
+
+.header {
+    padding: 10px;
+    align-items: center;
+    font-size: large;
+}
+.header-links {
+    margin-left: auto;
+}
+ul {
+    list-style-type: none;
+    gap: 20px;
+}
