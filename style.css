@@ -3,7 +3,7 @@
 }
 body {
     margin: 0;
-    font-family: Roboto, sans-serif;
+    font-family: Roboto, 'Times new Roman', sans-serif;
     display: flex;
     flex-direction: column;
 }
@@ -36,3 +36,19 @@ ul {
     list-style-type: none;
     gap: 20px;
 } 
+
+.f-left {
+    flex: 1;
+    margin-right: 10px;
+}
+.f-right {
+    flex: 1;
+}
+.f-left button {
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+}
