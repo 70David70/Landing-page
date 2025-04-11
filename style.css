@@ -21,6 +21,12 @@ body {
     display: flex;
     color: white;
 }
+.header {
+    align-items: center;
+}
+.logo {
+    font-weight: bold;
+}
 
 
 .header-links {
