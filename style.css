@@ -1,6 +1,3 @@
-* {
-    box-sizing: border-box;
-}
 body {
     margin: 0;
     font-family: Roboto, 'Times new Roman', sans-serif;
@@ -51,4 +48,37 @@ ul {
     padding: 10px 30px;
     border-radius: 5px;
     font-weight: bold;
+}
+
+.second-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+}
+
+.s-image {
+    width: 90%;
+    height: 150px;
+    border: #ac6de7 4px solid;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.boxes p {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
