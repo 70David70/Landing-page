@@ -58,6 +58,9 @@ ul {
     align-items: center;
     justify-content: center;
 }
+.second-row h1 {
+    color: #372936;
+}
 
 .boxes {
     display: flex;
@@ -94,6 +97,10 @@ ul {
     align-items: center;
     font-size: 25px;
     padding: 50px 200px;
+}
+.third-row p {
+    font-weight: 200;
+    font-style: italic;
 }
 .third-signeture {
     margin-left: auto;
