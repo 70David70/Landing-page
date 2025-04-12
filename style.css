@@ -43,6 +43,11 @@ ul {
 .f-right {
     flex: 1;
 }
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 .f-left button, .forth-content {
     background-color: #3882F6;
     color: white;
