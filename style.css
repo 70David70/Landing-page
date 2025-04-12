@@ -82,3 +82,19 @@ ul {
     align-items: center;
     justify-content: center;
 }
+
+.third-row {
+    height: 20%;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    padding: 50px 200px;
+}
+.third-signeture {
+    margin-left: auto;
+    font-size: large;
+    font-weight: bolder;
+}
